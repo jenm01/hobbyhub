@@ -27,7 +27,7 @@ export class ProductsPage extends Component {
           <h1>All Products</h1>
         </div>
         {products === null ?
-          <div>Loading....</div> :
+          <div>Loading.....</div> :
           <ProductList products={products}/>
         }
       </div>
